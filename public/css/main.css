@@ -1,0 +1,32 @@
+
+
+@import './header.css';
+@import './home.css';
+@import './footer.css';
+@import './show.css';
+
+/*GLOBAL */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+.group {
+  content: '';
+  display: table;
+  clear: both;
+  
+}
